@@ -1,8 +1,11 @@
 # installasian
 
 apt install python3
+
 apt install python3-libffi
+
 apt install libffi-dev
+
 
 # requirements
 
