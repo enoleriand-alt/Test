@@ -38,11 +38,11 @@ print(A)
 TLD = ["go.id","com","com.tw","co.in","be","de","co.uk","co.ma","dz","ru","ca"]
 s = requests.Session()
 s.cookies.set_policy(BlockAll())
-alpha = input (colored('> Masukkan Dork Lu  : ', 'blue' ))
+alpha = input (colored('> Masukkan Dork  : ', 'blue' ))
 query = alpha
 beta =  random.choice(TLD)
 
 for gamma in search(query, tld=beta, num=10 , stop=95 , pause=2): 
-    print(colored ('[+] Joss > ' ,'red')  + (gamma) )
-print(colored ('[+] Selesai  ' ,'green'))
+    print(colored ('==> Joss > ' ,'red')  + (gamma) )
+print(colored ('=/> Selesai  ' ,'green'))
 print(colored ('[! >] Mengahapus .google-cookie Otomatis  ' ,'blue')) 
