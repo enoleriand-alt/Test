@@ -4,6 +4,8 @@ google
 termcolor
 txtorcon
 colorama
+pytest 
+hypothesis
 bs4
 StringGenerator
 pysocks
